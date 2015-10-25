@@ -21,6 +21,7 @@ h1{
 	width: 80px;
 	float: left;
 	padding-left: 140px;
+	padding-top: 14px;
 }
 
 #headerimageright {
@@ -28,6 +29,7 @@ h1{
 	width: 80px;
 	float: right;
 	padding-right: 140px;
+	padding-top: 10px;
 }
 
 body {
@@ -47,7 +49,7 @@ body {
 	font-size: 20px;
 }
 
-button{
+button {
 	float: left;
 	background-color: red;
 	color: white;
@@ -59,14 +61,14 @@ button{
 	margin-left: 1px;
 }
 
-.navMenuLI{
+.navMenuLI {
 	list-style: none;
 	float: left;
 	/*margin: 0px 50px;*/
 	width: 33%;
 }
 
-.navMenuUL{
+.navMenuUL {
 	/*border: 2px solid white;*/
 	float: left;
 	width: 84%;
@@ -79,12 +81,12 @@ button{
 	text-align: center;
 }
 
-.defaultHidden{ 
+.defaultHidden { 
 	/*defaults the navigation menu to be hidden when it is first loaded*/
 	display: none;
 }
 
-.navMenu{
+.navMenu {
 	vertical-align: center;
 	width: 99%;
 	overflow: hidden;
@@ -92,15 +94,15 @@ button{
 	top: 0px;
 }
 
-#toggleContentOnClick{
+#toggleContentOnClick {
 
 }
 
-.white{
+.white {
 	color: white;
 }
 
-.putBelowNavMenu{
+.putBelowNavMenu {
 	margin-top: 0px;
 	z-index: -1;
 	/*overflow: auto;*/
