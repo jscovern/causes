@@ -1,4 +1,14 @@
-.panda_header {
+
+#headerimages {
+	display: inline;
+	width: 100px;
+}
+
+
+
+
+/*Index page stuff*/
+/*.panda_header {
 	color: white;
 	text-align: center;
 	position: fixed;
@@ -78,4 +88,4 @@ button{
 
 /*.white{
 	color: white;
-}*/
+}*/*/

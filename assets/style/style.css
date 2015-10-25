@@ -10,6 +10,26 @@
 	background-color: black;
 }
 
+h1{
+	font-size: 80px;
+	margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#headerimageleft {
+	display: inline;
+	width: 80px;
+	float: left;
+	padding-left: 140px;
+}
+
+#headerimageright {
+	display: inline;
+	width: 80px;
+	float: right;
+	padding-right: 140px;
+}
+
 body {
 	width: 100%;
 	background-color: black;
@@ -85,6 +105,8 @@ button{
 	z-index: -1;
 	/*overflow: auto;*/
 }
+
+
 /*
 .keepAtTop{
 	/*position: absolute;*/
