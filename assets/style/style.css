@@ -6,7 +6,7 @@
 }
 
 body{
-	background-color: black;
+	/*background-color: black;*/
 }
 
 nav{
@@ -88,4 +88,8 @@ button{
 
 .contentWrapper{
 	padding-top: 120px;
+}
+
+.indexBody{
+	background-color: black;
 }
