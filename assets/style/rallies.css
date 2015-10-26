@@ -4,6 +4,11 @@
 	margin: 15px;
 }
 
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
 #sleepypandas {
 	max-height: 180px;
 	margin: 10px;
@@ -28,23 +33,26 @@ h2 {
 p {
 	text-align: justify;
 }
+
 h3 {
 	color: red;
 	text-transform: 
 }
  
-.css-slideshow{
+.css-slideshow {
 	margin-top: 0px;
 	position: relative;
 	max-width: 495px;
 	height: 370px;
 	margin: .5em auto;
 }
-.css-slideshow figure{
+
+.css-slideshow figure {
 	margin: 0;
 	position: absolute;
 }
-.css-slideshow figcaption{
+
+.css-slideshow figcaption {
 	position: absolute;
 	margin-top: 0px; 
 	top: 0;
@@ -55,43 +63,50 @@ h3 {
 	opacity: 0;
 	transition: opacity .5s;
 }
-.css-slideshow:hover figure figcaption{
+
+.css-slideshow:hover figure figcaption {
 	transition: opacity .5s;
 	opacity: 1;
 }
-.css-slideshow figure{
+
+.css-slideshow figure {
 	opacity:0;
 }
 
 figure:nth-child(1) {
-   animation: xfade 15s 12s infinite;
+	animation: xfade 15s 12s infinite;
 }
+
 figure:nth-child(2) {
-   animation: xfade 15s 9s infinite;
+	animation: xfade 15s 9s infinite;
 }
+
 figure:nth-child(3) {
-   animation: xfade 15s 6s infinite;
+	animation: xfade 15s 6s infinite;
 }
+
 figure:nth-child(4) {
-   animation: xfade 15s 3s infinite;
+	animation: xfade 15s 3s infinite;
 }
+
 figure:nth-child(5) {
-   animation: xfade 15s 0s infinite;
+	animation: xfade 15s 0s infinite;
 }
+
 @keyframes xfade{
-   0%{
-      opacity: 1;
-   }
-   18.5% {
-      opacity:1;
-   }
-   20%{
-      opacity: 0;
-   }
-   98% {
-      opacity:0;
-   }
-   100% {
-      opacity:1;
-   }
+	0%{
+		opacity: 1;
+	}
+	18.5% {
+		opacity:1;
+	}
+	20%{
+		opacity: 0;
+	}
+	98% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
 }
