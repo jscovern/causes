@@ -65,9 +65,7 @@ h3 {
 	opacity: 1;
 }
 
-/*.css-slideshow:hover figure figcaption {
-	transition: opacity .5s;
-}*/
+/*~~~~SLIDESHOW~~~~~*/
 
 .css-slideshow figure {
 	opacity:0;
