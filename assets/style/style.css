@@ -125,6 +125,13 @@ iframe{
 	border: 1px solid white;
 }
 
+#social_links {
+	display: block;
+	width: 195px;
+	position: fixed;
+	left: 5%;
+	bottom: 10%;
+}
 
 /*
 .keepAtTop{
