@@ -1,5 +1,13 @@
 .visionWrapper{
-	background-image: url(../images/vision.jpg);
-	color: white;
-	background-repeat: no-repeat;
+	/*background-image: url(../images/vision.jpg);*/
+	color: red;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial; Helvetica; Serif;
+
+}
+
+.visionBackground{
+	/*background-image: url(../images/PandaWithGlasses.jpg);*/
 }

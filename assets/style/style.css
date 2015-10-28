@@ -54,7 +54,7 @@ body {
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	height: 800px;
+	/*height: 800px;*/
 	text-align: center;
 	line-height: 18px;
 	font-size: 20px;
@@ -116,11 +116,22 @@ button {
 }
 
 .putBelowNavMenu {
-	margin-top: 0px;
+	margin-top: 55px;
 	z-index: -1;
 	/*overflow: auto;*/
 }
 
+iframe{
+	border: 1px solid white;
+}
+
+#social_links {
+	display: block;
+	width: 195px;
+	position: fixed;
+	left: 5%;
+	bottom: 10%;
+}
 
 /*
 .keepAtTop{
