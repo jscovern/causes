@@ -7,3 +7,10 @@ $("#toggleContentOnClick").click(function() {
 // $('#toggle-content-onclick').click(function() {
   // $('#some_paragraph').slideToggle();
 // });
+//function newpage() {
+/*	return "file:Users/ZumiBrown/causes/donationForms";
+	
+};
+$("a.smallBox").click(function() {
+	window.location="file:///Users/ZumiBrown/causes/donationForms";
+});
