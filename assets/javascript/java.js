@@ -7,6 +7,11 @@ $(document).ready(function(){
 	});
 });
 
+	$("#special").onClick(function(){
+		$("#slideFir").slideToggle("slow");
+		$("#slideSec").slideToggle("slow");
+	});
+
 // $('#toggle-content-onclick').click(function() {
   // $('#some_paragraph').slideToggle();
 // });
