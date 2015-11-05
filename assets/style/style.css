@@ -39,10 +39,10 @@ a:hover {
 	display: inline;
 	width: 80px;
 	float: right;
-	padding-right: 140px;
-	padding-top: 10px;
+	position: absolute;
+	top: 100px;
+	right: 30px;
 }
-
 body {
 	width: 100%;
 	background-color: black;

@@ -1,11 +1,14 @@
 
 $(document).ready(function(){
+	
 	$("#toggleContentOnClick").click(function() {
 		$("ul").slideToggle();
 		console.log("got in here");
+
 	// console.log("made it into the div");
 	});
 });
+
 
 	$("#special").onClick(function(){
 		$("#slideFir").slideToggle("slow");
@@ -21,4 +24,4 @@ $(document).ready(function(){
 };
 $("a.smallBox").click(function() {
 	window.location="file:///Users/ZumiBrown/causes/donationForms";
-});
+});*/
